@@ -1,0 +1,41 @@
+<% provide(:title, 'Notes') %>
+<h1 class="page-header">My notes on learning rails</h1>
+
+<section id="myNotes" class="anchor-space">
+<%= render partial: 'layouts/notes', :locals => {:pos => "my"} %>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h1 class="panel-title">My Notes</h1>
+		</div>
+		<div class="panel-body">
+			<%= markdown markdown_tag "myNotes.md.erb" %>
+		</div>
+		<div class="panel-footer"><%= link_to "Top", "#" %></div>
+	</div>
+</section>
+
+<section id="gitNotes" class="anchor-space">
+	<%= render partial: 'layouts/notes', :locals => {:pos => "git"} %>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h1 class="panel-title">Git Notes</h1>
+		</div>
+		<div class="panel-body">
+			<%= markdown markdown_tag "gitNotes.md.erb" %>
+		</div>
+		<div class="panel-footer"><%= link_to "Top", "#" %></div>
+	</div>
+</section>
+
+<section id="herokuNotes" class="anchor-space">
+	<%= render partial: 'layouts/notes', :locals => {:pos => "heroku"} %>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h1 class="panel-title">Heroku Notes</h1>
+		</div>
+		<div class="panel-body">
+			<%= markdown markdown_tag "herokuNotes.md.erb" %>
+		</div>
+		<div class="panel-footer"><%= link_to "Top", "#" %></div>
+	</div>
+</section>

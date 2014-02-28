@@ -1,0 +1,15 @@
+<ul class="nav nav-tabs">
+<% if pos == "my" %>
+	<li class="active"><%= link_to "My Notes", "#myNotes" %></li>
+  <li><%= link_to "Git Notes", "#gitNotes" %></li>
+  <li><%= link_to "Heroku Notes", "#herokuNotes" %></li>
+<% elsif pos == "git" %>
+	<li><%= link_to "My Notes", "#myNotes" %></li>
+  <li class="active"><%= link_to "Git Notes", "#gitNotes" %></li>
+  <li><%= link_to "Heroku Notes", "#herokuNotes" %></li>
+<% elsif pos == "heroku" %>
+	<li><%= link_to "My Notes", "#myNotes" %></li>
+  <li><%= link_to "Git Notes", "#gitNotes" %></li>
+  <li class="active"><%= link_to "Heroku Notes", "#herokuNotes" %></li>
+<% end %>
+</ul>
