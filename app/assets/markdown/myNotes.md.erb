@@ -18,3 +18,4 @@ I am utilizing the following references for my rails education:
 + [Heroku Documentation](https://devcenter.heroku.com/)
 + [Heroku CLI Documentation](https://devcenter.heroku.com/articles/heroku-command)
 + [Bundler Documentation](http://bundler.io/v1.5/rationale.html)
++ [Setting up a Github Repo](https://help.github.com/articles/create-a-repo)
