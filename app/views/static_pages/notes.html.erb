@@ -5,10 +5,10 @@
 <%= render partial: 'layouts/notes', :locals => {:pos => "my"} %>
 	<div class="panel panel-default">
 		<div class="panel-heading">
-			<h1 class="panel-title">My Notes</h1>
+			<h1 class="panel-title">Github Readme</h1>
 		</div>
 		<div class="panel-body">
-			<%= markdown markdown_tag "myNotes.md.erb" %>
+			<%= markdown markdown_tag "README.md" %>
 		</div>
 		<div class="panel-footer"><%= link_to "Top", "#" %></div>
 	</div>
@@ -21,7 +21,7 @@
 			<h1 class="panel-title">Git Notes</h1>
 		</div>
 		<div class="panel-body">
-			<%= markdown markdown_tag "gitNotes.md.erb" %>
+			<%= markdown markdown_tag "gitNotes.md" %>
 		</div>
 		<div class="panel-footer"><%= link_to "Top", "#" %></div>
 	</div>
@@ -34,7 +34,7 @@
 			<h1 class="panel-title">Heroku Notes</h1>
 		</div>
 		<div class="panel-body">
-			<%= markdown markdown_tag "herokuNotes.md.erb" %>
+			<%= markdown markdown_tag "herokuNotes.md" %>
 		</div>
 		<div class="panel-footer"><%= link_to "Top", "#" %></div>
 	</div>
