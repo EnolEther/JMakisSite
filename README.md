@@ -3,10 +3,12 @@
 This is my first application utilizing rails and ruby. I am teaching myself as I develope my site.
 
 I've so far included
+
 + Flickr API calls on my Photography pages
 + Markdown rendering on Notes pages
 
 I am utilizing the following references for my rails education:
+
 + Google-fu
 + [*Ruby on Rails Tutorial*](http://railstutorial.org/) by [Michael Hartl](http://michaelhartl.com/).
 + [*Rails 4 in Action (EAE)*](http://www.manning.com/bigg2/) by Ryan Bigg, Yehuda Katz, and Steve Klabnik
