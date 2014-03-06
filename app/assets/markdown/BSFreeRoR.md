@@ -97,13 +97,14 @@ I've installed:
 
 + [Theme - Soda](https://sublime.wbond.net/packages/Theme%20-%20Soda)
   + I use Soda dark with the syntax highlighting color schemes files provided at the bottom of the page above.
++ [SublimeText Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
++ [SideBarEnhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
++ [SublimeCodeIntel](https://sublime.wbond.net/packages/SublimeCodeIntel)
++ [Terminal](http://wbond.net/sublime_packages/terminal)
 + [Dotfiles Syntax Highlighting](https://sublime.wbond.net/packages/Dotfiles%20Syntax%20Highlighting)
 + [Haml](https://sublime.wbond.net/packages/Haml)
 + [LaTeXing](https://sublime.wbond.net/packages/LaTeXing)
 + [Sass](https://sublime.wbond.net/packages/Sass) 
-+ [SideBarEnhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
-+ [SublimeCodeIntel](https://sublime.wbond.net/packages/SublimeCodeIntel)
-+ [Terminal](http://wbond.net/sublime_packages/terminal)
 + [SublimeLinter](https://sublime.wbond.net/packages/SublimeLinter)
   + [Documentation](http://sublimelinter.readthedocs.org/en/latest/index.html)
 + [SublimeLinter-ruby](https://github.com/SublimeLinter/SublimeLinter-ruby)
