@@ -16,7 +16,7 @@ I am utilizing the following references for my rails education:
 + [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 + [SASS Documentation](http://sass-lang.com/)
 + [Bootstrap Documentation](http://getbootstrap.com/components/)
-+ a[Git Documentation](http://gitref.org/)
++ [Git Documentation](http://gitref.org/)
 + [Heroku Documentation](https://devcenter.heroku.com/)
 + [Heroku CLI Documentation](https://devcenter.heroku.com/articles/heroku-command)
 + [Bundler Documentation](http://bundler.io/v1.5/rationale.html)
