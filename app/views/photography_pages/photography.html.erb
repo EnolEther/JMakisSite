@@ -1,9 +1,11 @@
-<% provide(:title, 'Photography') %>  
-<h1>Photographs</h1>
-<div class="well">
-<div class="row">
-<% parsePhotoData(@myPhotos).each do |ele| %>
-<%= render partial: 'layouts/photos', :locals=>{:large => ele[:lgURL], :thumb => ele[:sqURL], :title => ele[:title]} %>
-<% end %>
-</div>
+<% provide(:title, 'Photography') %>
+<div class="container">
+  <h1>Photographs</h1>
+  <!-- <div class="well"> -->
+    <div class="row center-block">
+      <% parsePhotoData(@myPhotos).each do |ele| %>
+      <%= render partial: 'layouts/photos', :locals=>{:large => ele[:lgURL], :thumb => ele[:sqURL], :title => ele[:title]} %>
+      <% end %>
+    </div>
+  <!-- </div> -->
 </div>
