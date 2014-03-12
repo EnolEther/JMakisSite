@@ -1,4 +1,4 @@
-@import "twitter/bootstrap";
+@import "bootstrap";
 
 /* mixins, variables, etc. */
 
@@ -12,9 +12,11 @@ html {
   overflow-y: scroll;
 }
 
-body {
-  padding: 60px 7em 2em;
-}
+// body {
+//   padding: 60px 2em 2em;
+// }
+
+// .nav-collapse { padding-top: 1em; }
 
 section {
   overflow: auto;
@@ -24,12 +26,21 @@ textarea {
   resize: vertical;
 }
 
-.center {
-  text-align: center;
-  h1 {
-    margin-bottom: 10px;
-  }
+// Classes
+.center-block {
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+// .center {
+//   text-align: center;
+//   h1 {
+//     margin-bottom: 10px;
+//   }
+// }
 
 .list-group-item{
   border: 0;
@@ -38,11 +49,23 @@ textarea {
 .thumbnail {
   padding: .5em;
   margin: .5em;
+  width: 100px;
+  height: 100px;
 }
 
-.row {
-  float: center;
-}
+// .row{
+//   float: center;
+// }
+
+// .centered-content{
+//   display: table;
+//   .centered{
+//     display: table-cell;
+//     text-align: center;
+//     vertical-align: center;
+//     float: none;
+//   }
+// }
 
 /* typography */
 
@@ -50,33 +73,33 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
-h1 {
-  font-size: 3em;
-  // letter-spacing: -2px;
-  margin-bottom: 30px;
-  // text-align: center;
-}
-
-h2 {
-  font-size: 1.2em;
-//   letter-spacing: -1px;
-  margin-bottom: 30px;
+// h1 {
+//   font-size: 3em;
+//   letter-spacing: -2px;
+//   margin-bottom: 30px;
 //   text-align: center;
-  font-weight: normal;
-  // color: $grayLight;
-}
+// }
 
-p {
-  font-size: 1.1em;
-  line-height: 1.7em;
-}
+// h2 {
+//   font-size: 2em;
+//   letter-spacing: -1px;
+//   margin-bottom: 30px;
+//   text-align: center;
+//   font-weight: normal;
+//   color: $grayLight;
+// }
+
+// p {
+//   font-size: 1.1em;
+//   line-height: 1.7em;
+// }
 
 
 /* header */
 
-.navbar {
-  height: 3em;
-}
+// .navbar {
+//   height: 3em;
+// }
 
 #logo {
   // float: left;
