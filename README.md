@@ -22,3 +22,12 @@ I am utilizing the following references for my rails education:
 + [Bundler Documentation](http://bundler.io/v1.5/rationale.html)
 + [Setting up a Github Repo](https://help.github.com/articles/create-a-repo)
 + [PostgreSQL app documentation](http://postgresapp.com/documentation/)
+
+To do's
+
++ Implement TDD with foreman, guard, and spork
++ Fix styling on contact page
++ Clean up styling on photography pages to be pretier while using responsive format
++ Migrate markdown rendering from redcarpet to rdiscount
++ Implement jquery element updates to 'Notes' section to display one set of notes at a time within the panel
++ Finalize page contents!
