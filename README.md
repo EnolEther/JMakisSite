@@ -26,7 +26,7 @@ I am utilizing the following references for my rails education:
 To do's
 
 + Implement TDD with foreman, guard, and spork
-+ Fix styling on contact page
++ Fix styling on contact page, notes page
 + Clean up styling on photography pages to be pretier while using responsive format
 + Migrate markdown rendering from redcarpet to rdiscount
 + Implement jquery element updates to 'Notes' section to display one set of notes at a time within the panel
