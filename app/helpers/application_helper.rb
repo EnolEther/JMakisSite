@@ -9,16 +9,4 @@ module ApplicationHelper
       "#{page_title} | #{base_title}"
     end
   end
-
-  def markdown_tag(fname)
-    File.read(Rails.root+"app/assets/markdown/"+fname)
-  end
-
-  # Markdown implementation
-  def markdown(text)
-    markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML,
-        :hard_wrap => true, :filter_html => true, :prettify => true, :safe_links_only => true,
-        :no_intraemphasis => true, :autolink => true)
-    return markdown.render(text).html_safe
-  end
 end
