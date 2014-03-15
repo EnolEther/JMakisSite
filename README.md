@@ -2,11 +2,6 @@
 
 This is my first application utilizing rails and ruby. I am teaching myself as I develope my site.
 
-I've so far included
-
-+ Flickr API calls on my Photography pages
-+ Markdown rendering on Notes pages
-
 I am utilizing the following references for my rails education:
 
 + Google-fu
@@ -26,9 +21,12 @@ I am utilizing the following references for my rails education:
 To do's
 
 + Implement TDD with foreman, guard, and spork
-+ Fix & improve styling on contact page, notes page
++ Fix & improve global styling
 + Clean up styling on photography pages to be pretier while using responsive format
-+ Migrate markdown rendering from redcarpet to rdiscount
-+ Implement jquery element updates to 'Notes' section to display one set of notes at a time within the panel
 + Finalize page contents!
-+ Improve footer design. Work towards a sticky footer with a navbar with responsive design elements.
++ Improve footer design. Work towards a sticky footer with a navbar and responsive design elements.
+
+Implemented Features
+
++ Flickr API calls on my Photography pages
++ Markdown rendering with rdiscount on Notes page and implemented bootstraps's tab.js
