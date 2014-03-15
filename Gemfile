@@ -13,7 +13,8 @@ gem 'jquery-rails',			    '~>3.0'		# Use jquery as the JavaScript library
 gem 'jbuilder',					    '~>2.0'		# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'flickraw',					  	'~>0.9'		# Flickr API Gem
 gem 'flickraw-cached'                 # Flickraw Cache exten Gem
-gem 'redcarpet',            '~>3.0'   # Markdown engine
+gem 'redcarpet',            '~>3.0'   # Old Markdown engine
+gem 'rdiscount',            '~>2.1'   # Markdown engine
 gem 'unicorn',              '~>4.8'   # Unicorn App Server
 
 group :development, :test do
