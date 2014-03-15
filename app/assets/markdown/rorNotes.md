@@ -1,4 +1,4 @@
-# Setting ruby Ruby, RoR, and my development environment.
+# Setting Ruby, RoR, and my dev. environment.
 
 I have found setting up my Ruby and RoR environment to be one of the most difficult and time consuming affairs for a beginner to the framework. I'm compiling my notes on how I setup my Mid 2009 MacBook Pro running OS X 10.9.
 

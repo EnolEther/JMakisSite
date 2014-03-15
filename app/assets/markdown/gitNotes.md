@@ -1,3 +1,5 @@
+# My Notes on using git
+
 Set up repository by initializing git in project directory
 
 	git init
