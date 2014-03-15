@@ -1,3 +1,21 @@
 // Place all the styles related to the MarkdownPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.tab-content {
+  border-left: 1px solid $grayBootstrap;
+  border-right: 1px solid $grayBootstrap;
+  border-bottom: 1px solid $grayBootstrap;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.padNotes {
+  margin-top: 1.5em;
+}
+
+
+.anchor-space {
+  padding-top: 75px;
+  margin-top: -75px;
+}

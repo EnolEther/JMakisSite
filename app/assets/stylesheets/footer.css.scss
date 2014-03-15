@@ -1,0 +1,54 @@
+/*
+  Styles used for page footer
+*/
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footerHeight;
+  color: $grayDarker;
+  .footerLarge {
+    width: 90%;
+    padding-top: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2em;
+    border-top: 1px solid $grayMediumLight;
+    ul {
+      float: right;
+      list-style: none;
+      padding-right: 2em;
+      li {
+        float: left;
+        margin-left: 2em;
+      }
+    }
+  }
+  .footerSmall{
+    text-align: center;
+    float: clear;
+    width: 94%;
+    padding-top: 1em;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 2em;
+    border-top: 1px solid $grayMediumLight;
+    ul {
+      display:inline-block;
+      li {
+      }
+    }
+  }
+  a {
+    // text-decoration: none;
+    color: $grayLight;
+    &:hover {
+      color: $grayDarker;
+    }
+  }
+  small {
+    float: left;
+    color: $grayLight;
+  }
+}

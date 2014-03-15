@@ -4,233 +4,27 @@ $grayMediumLight: #eaeaea;
 $grayLighter: #f0f0f0;
 $grayLight: #999;
 $grayDarker: #555;
+$grayBootstrap: #ddd;
 
 $footerHeight: 50px;
 
-/* universal */
+/* universal styles */
 
 html {
   position: relative;
   min-height: 100%;
-  // margin-bottom: $footerHeight;
 }
 
 body {
-  margin-bottom: $footerHeight;
-}
-
-// .navbar-nav {
-//   li {
-//     a {
-//       padding-top:5px !important;
-//       padding-bottom:5px !important;
-//     }
-//   }
-// }
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  // padding-left: 3em;
-  // padding-right: 3em;
-  /* Set the fixed height of the footer here */
-  height: $footerHeight;
-  // background-color: $grayLighter;
-  color: $grayDarker;
-  .footerLarge {
-    width: 90%;
-    padding-top: 1em;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 2em;
-    border-top: 1px solid $grayMediumLight;
-    ul {
-      float: right;
-      list-style: none;
-      padding-right: 2em;
-      // margin-right: 2em;
-      li {
-        float: left;
-        margin-left: 2em;
-      }
-    }
-  }
-  .footerSmall{
-    text-align: center;
-    float: clear;
-    width: 94%;
-    padding-top: 1em;
-    margin-left: 3%;
-    margin-right: 3%;
-    padding-left: 2em;
-    border-top: 1px solid $grayMediumLight;
-    ul {
-      display:inline-block;
-      li {
-      }
-    }
-  }
-  a {
-    // text-decoration: none;
-    color: $grayLight;
-    &:hover {
-      color: $grayDarker;
-    }
-  }
-  small {
-    float: left;
-    color: $grayLight;
-  }
-  // ul {
-  //   float: right;
-  //   list-style: none;
-  //   margin-right: 2em;
-  //   li {
-  //     float: left;
-  //     // margin-left: 2em;
-  //   }
-  // }
-}
-
-.container-inside {
-  padding-left: 3em;
-  padding-right: 3em;
+  margin-bottom: $footerHeight*1.2;
 }
 
 textarea {
   resize: vertical;
 }
 
-// Classes
-.center-block {
-  width: auto;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.list-group-item{
-  border: 0;
-}
-
-.thumbnail {
-  padding: .5em;
-  margin: .5em;
-  width: 100px;
-  height: 100px;
-}
-
-/* typography */
+/* universal typography */
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
-
-#logo {
-  // float: left;
-  margin-right: 10px;
-  font-size: 1.5em;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  font-weight: bold;
-  line-height: 1;
-  &:hover {
-    color: white;
-    text-decoration: none;
-  }
-}
-
-/* markdown */
-
-.anchor-space {
-  padding-top: 75px;
-  margin-top: -75px;
-}
-
-/* Stuff no longer used but saved for reference */
-// html {
-//   overflow-y: scroll;
-// }
-
-// h1 {
-//   font-size: 3em;
-//   letter-spacing: -2px;
-//   margin-bottom: 30px;
-//   text-align: center;
-// }
-
-// h2 {
-//   font-size: 2em;
-//   letter-spacing: -1px;
-//   margin-bottom: 30px;
-//   text-align: center;
-//   font-weight: normal;
-//   color: $grayLight;
-// }
-
-// p {
-//   font-size: 1.1em;
-//   line-height: 1.7em;
-// }
-
-// .navbar {
-//   height: 3em;
-// }
-
-// body {
-//   padding: 60px 2em 2em;
-// }
-/* footer */
-
-// footer {
-//   // margin-top: 45px;
-//   padding-top: 5px;
-//   border-top: 1px solid $grayMediumLight;
-//   // margin: 4em 1em 5em 6em;
-//   color: $grayLight;
-//   a {
-//     color: $grayMediumLight;
-//     &:hover {
-//       color: $grayDarker;
-//     }
-//   }
-//   small {
-//     float: left;
-//   }
-//   // ul {
-//   //   float: right;
-//   //   list-style: none;
-//   //   li {
-//   //     float: left;
-//   //     margin-left: 10px;
-//   //   }
-//   // }
-// }
-
-// section {
-//   overflow: auto;
-// }
-
-// .center {
-//   text-align: center;
-//   h1 {
-//     margin-bottom: 10px;
-//   }
-// }
-
-// .row{
-//   float: center;
-// }
-
-// .centered-content{
-//   display: table;
-//   .centered{
-//     display: table-cell;
-//     text-align: center;
-//     vertical-align: center;
-//     float: none;
-//   }
-// }
