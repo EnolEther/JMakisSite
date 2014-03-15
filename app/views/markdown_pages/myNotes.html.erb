@@ -1,2 +1,24 @@
-<h1>MarkdownPages#myNotes</h1>
-<p>Find me in app/views/markdown_pages/myNotes.html.erb</p>
+<h1>My notes on learning rails</h1>
+
+<div id="myNotes" class="padNotes">
+  <ul class="nav nav-tabs">
+    <li class="active"><%= link_to "My Notes", "#readmeNotes", "data-toggle" => "tab"%></li>
+    <li><%= link_to "Git Notes", "#gitNotes", "data-toggle" => "tab" %></li>
+    <li><%= link_to "Heroku Notes", "#herokuNotes", "data-toggle" => "tab" %></li>
+    <li><%= link_to "RoR Notes", "#rorNotes", "data-toggle" => "tab" %></li>
+  </ul>
+  <div id="myNotesContent" class="tab-content">
+    <div class="tab-pane fade in active" id="readmeNotes">
+      <%= renderMarkdown markdown_readmeFile %>
+    </div>
+    <div class="tab-pane fade" id="gitNotes">
+      <%= renderMarkdown markdown_read "gitNotes.md" %>
+    </div>
+    <div class="tab-pane fade" id="herokuNotes">
+      <%= renderMarkdown markdown_read "herokuNotes.md" %>
+    </div>
+    <div class="tab-pane fade" id="rorNotes">
+      <%= renderMarkdown markdown_read "rorNotes.md" %>
+    </div>
+  </div>
+</div>
