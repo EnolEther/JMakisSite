@@ -7,7 +7,4 @@ class StaticPagesController < ApplicationController
 
   def contact
   end
-
-  def markdown
-  end
 end
