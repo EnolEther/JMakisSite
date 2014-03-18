@@ -12,8 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require lightbox-2.6.min.js
-//= require jquery-1.10.2.min.js
-//= require modernizr.custom.js
 //= require bootstrap
+//= require modernizr.custom.js
+//= require jquery-1.10.2.min.js
+//= require lightbox-2.6.min.js
 //= require_tree .
