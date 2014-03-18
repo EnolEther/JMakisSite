@@ -20,10 +20,11 @@ I am utilizing the following references for my rails education:
 
 To do's
 
-+ Implement TDD with foreman, guard, and spork
++ URGENT: Clean up styling on photography pages. Fix lightbox plugin or migrate to different method
++ Debug Digest::Digest depreciated errors in flickraw (supposedly fixed)
 + Fix & improve global styling
-+ Clean up styling on photography pages to be prettier while using responsive format
 + Finalize page contents!
++ Implement TDD with foreman, guard, and spork
 + Improve footer design. Work towards a sticky footer with a navbar and responsive design elements.
 
 Implemented Features
