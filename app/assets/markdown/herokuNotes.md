@@ -4,9 +4,9 @@ To deploy to heroku
 
 ```shell
 $ heroku login
-$ heroku create						 # To create the new application
+$ heroku create           # To create the new application
 $ git push heroku master
-$ heroku open							 # Opens application in web browser
+$ heroku open             # Opens application in web browser
 ```
 
 Other useful heroku Commands
