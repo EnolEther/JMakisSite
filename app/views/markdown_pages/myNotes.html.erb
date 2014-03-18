@@ -9,16 +9,16 @@
   </ul>
   <div id="myNotesContent" class="tab-content">
     <div class="tab-pane fade in active" id="readmeNotes">
-      <%= renderMarkdown markdown_readmeFile %>
+      <%= markdown markdown_readmeFile %>
     </div>
     <div class="tab-pane fade" id="gitNotes">
-      <%= renderMarkdown markdown_read "gitNotes.md" %>
+      <%= markdown markdown_read "gitNotes.md" %>
     </div>
     <div class="tab-pane fade" id="herokuNotes">
-      <%= renderMarkdown markdown_read "herokuNotes.md" %>
+      <%= markdown markdown_read "herokuNotes.md" %>
     </div>
     <div class="tab-pane fade" id="rorNotes">
-      <%= renderMarkdown markdown_read "rorNotes.md" %>
+      <%= markdown markdown_read "rorNotes.md" %>
     </div>
   </div>
 </div>

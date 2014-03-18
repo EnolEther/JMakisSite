@@ -1,5 +1,8 @@
 module MarkdownPagesHelper
-  require 'rdiscount'
+
+  class HTMLwRouge < Redcarpet::Render::HTML
+    include Rouge::Plugins::Redcarpet
+  end
 
   def markdown_read(fname)
     File.read(Rails.root+"app/assets/markdown/"+fname)
@@ -9,8 +12,16 @@ module MarkdownPagesHelper
     File.read("README.md")
   end
 
-  def renderMarkdown(text)
-    markdown = RDiscount.new(text, :autolink, :smart)
-    return markdown.to_html.html_safe
+  def markdown(content)
+    markdown = Redcarpet::Markdown.new(HTMLwRouge.new, {
+      :no_intra_emphasis => true,
+      :fenced_code_blocks => true,
+      :autolink => true,
+      :disable_indented_code_blocks => true,
+      :lax_spacing => true,
+      :superscript => true,
+      :footnotes => true
+    })
+    markdown.render(content).html_safe
   end
 end
