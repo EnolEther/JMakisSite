@@ -1,6 +1,6 @@
 # A personal website for J. Makis
 
-This is my first application utilizing rails and ruby. I am teaching myself as I develope my site.
+This is my first application utilizing rails and ruby. I am teaching myself as I develop my site.
 
 I am utilizing the following references for my rails education:
 
@@ -22,11 +22,12 @@ To do's
 
 + Implement TDD with foreman, guard, and spork
 + Fix & improve global styling
-+ Clean up styling on photography pages to be pretier while using responsive format
++ Clean up styling on photography pages to be prettier while using responsive format
 + Finalize page contents!
 + Improve footer design. Work towards a sticky footer with a navbar and responsive design elements.
 
 Implemented Features
 
 + Flickr API calls on my Photography pages
-+ Markdown rendering with rdiscount on Notes page and implemented bootstraps's tab.js
++ Markdown rendering with redcarpet on Notes page and implemented bootstraps's tab.js
++ Markdown code block syntax highlighting implemented with rouge
