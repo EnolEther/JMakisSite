@@ -12,7 +12,7 @@ gem 'jquery-rails',		   	        '~>3.0'		# Use jquery as the JavaScript library
 # gem 'turbolinks',		   		      '~>2.2'		# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'jbuilder',				   	        '~>2.0'		# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'flickraw',				   	  	    '~>0.9'		# Flickr API Gem
-gem 'flickraw-cached'                       # Flickraw Cache exten Gem
+# gem 'flickraw-cached'                     # Flickraw Cache exten Gem
 gem 'redcarpet',                  '~>3.1'   # Markdown engine
 gem 'rouge',                      '~>1.3'   # Syntax Highlighting
 gem 'unicorn',                    '~>4.8'   # Unicorn App Server
