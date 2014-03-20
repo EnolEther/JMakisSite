@@ -6,7 +6,7 @@ gem 'rails',		  					      '~>4.0'		# Bundle edge Rails instead: gem 'rails', gi
 gem 'pg',			  	        			  '~>0.17'  # Use postgresql as the database for Active Record
 gem 'bootstrap-sass',             '~>3.1'   # Bootstrap for dynamic CSS
 gem 'sass-rails',                 '~>4.0'		# Use SCSS for stylesheets
-gem 'uglifier',				     	      '~>2.3'		# Use Uglifier as compressor for JavaScript assets
+# gem 'uglifier',				     	      '~>2.3'		# Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails',		            '~>4.0'		# Use CoffeeScript for .js.coffee assets and views
 gem 'jquery-rails',		   	        '~>3.0'		# Use jquery as the JavaScript library
 # gem 'turbolinks',		   		      '~>2.2'		# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
