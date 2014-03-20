@@ -9,7 +9,7 @@ gem 'sass-rails',                 '~>4.0'		# Use SCSS for stylesheets
 gem 'uglifier',				     	      '~>2.5'		# Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails',		            '~>4.0'		# Use CoffeeScript for .js.coffee assets and views
 gem 'jquery-rails',		   	        '~>3.1'		# Use jquery as the JavaScript library
-# gem 'turbolinks',		   		      '~>2.2'		# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+gem 'turbolinks',		   		      '~>2.2'		# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'jbuilder',				   	        '~>2.0'		# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'flickraw',				   	  	    '~>0.9'		# Flickr API Gem
 # gem 'flickraw-cached'                     # Flickraw Cache exten Gem
