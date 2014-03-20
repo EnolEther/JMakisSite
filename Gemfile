@@ -6,9 +6,9 @@ gem 'rails',		  					      '~>4.0'		# Bundle edge Rails instead: gem 'rails', gi
 gem 'pg',			  	        			  '~>0.17'  # Use postgresql as the database for Active Record
 gem 'bootstrap-sass',             '~>3.1'   # Bootstrap for dynamic CSS
 gem 'sass-rails',                 '~>4.0'		# Use SCSS for stylesheets
-# gem 'uglifier',				     	      '~>2.3'		# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier',				     	      '~>2.5'		# Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails',		            '~>4.0'		# Use CoffeeScript for .js.coffee assets and views
-gem 'jquery-rails',		   	        '~>3.0'		# Use jquery as the JavaScript library
+gem 'jquery-rails',		   	        '~>3.1'		# Use jquery as the JavaScript library
 # gem 'turbolinks',		   		      '~>2.2'		# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'jbuilder',				   	        '~>2.0'		# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'flickraw',				   	  	    '~>0.9'		# Flickr API Gem
@@ -28,7 +28,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'selenium-webdriver',	    '~>2.37'  # 
+  gem 'selenium-webdriver',	    '~>2.40'  # 
   gem 'capybara',			          '~>2.1'   #
 end
 
@@ -38,7 +38,7 @@ group :doc do
 end
 
 group :production do
-  gem 'rails_12factor', '~> 0.0.2'
+  gem 'rails_12factor', '~>0.0'
 end
 
 # Use ActiveModel has_secure_password
