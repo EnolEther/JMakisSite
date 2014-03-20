@@ -3,7 +3,6 @@
 <!-- <div class="well"> -->
 <div class="row center-block">
   <% parsePhotoData(@myPhotos).each do |ele| %>
-  <%= render partial: 'layouts/photos', :locals=>{:large => ele[:lgURL], :thumb => ele[:sqURL], :title => ele[:title]} %>
+  <%= render partial: 'layouts/photos', :locals=>{:largeURL => ele[:largeURL], :thumbURL => ele[:thumbURL], :title => ele[:title]} %>
   <% end %>
 </div>
-<!-- </div> -->
