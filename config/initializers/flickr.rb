@@ -1,5 +1,5 @@
-# This is the URL Flickr will redirect your users to once they agree to access
-@callback_url='http://localhost:3000/auth_controller/callback'
+# # This is the URL Flickr will redirect your users to once they agree to access
+# @callback_url='http://localhost:3000/auth_controller/callback'
 
 FlickRaw.api_key=ENV['API_KEY']
 FlickRaw.shared_secret=ENV['SHARED_SECRET']

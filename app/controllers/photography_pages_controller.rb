@@ -7,7 +7,7 @@ class PhotographyPagesController < ApplicationController
   # FlickRaw.shared_secret=ENV['SHARED_SECRET']
 
   def photography
-    @myPhotos = flickr.photos.search(:user_id => '56381296@N00', :per_page => 20)
+    @myPhotos = flickr.photos.search(:user_id => '56381296@N00')
   end
 
   # Users should hit this method to get the link which sends them to flickr
