@@ -20,12 +20,14 @@ I am utilizing the following references for my rails education:
 
 To do's
 
-+ URGENT: Clean up styling on photography pages. Fix lightbox plugin or migrate to different method
 + Debug Digest::Digest depreciated errors in flickraw (supposedly fixed)
++ Improve load time for photography page.
++ Improve contact page
++ Implement a database
 + Fix & improve global styling
 + Finalize page contents!
 + Implement TDD with foreman, guard, and spork
-+ Improve footer design. Work towards a sticky footer with a navbar and responsive design elements.
++ Improve footer design. Maybe work towards a sticky footer with a navbar.
 
 Implemented Features
 
