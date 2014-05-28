@@ -17,6 +17,7 @@ gem 'redcarpet',                  '~>3.1'   # Markdown engine
 gem 'rouge',                      '~>1.3'   # Syntax Highlighting
 gem 'unicorn',                    '~>4.8'   # Unicorn App Server
 gem 'actionview-encoded_mail_to', '~>1.0'   # allows encoding of mail_to
+gem 'newrelic_rpm',               '~>3.8'   # Heroku performance monitoring
 
 group :development, :test do
   gem 'rspec-rails',            '~>2.14' 	# TDD packages
