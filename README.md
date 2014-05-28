@@ -20,17 +20,15 @@ I am utilizing the following references for my rails education:
 
 To do's
 
-+ Debug Digest::Digest depreciated errors in flickraw (supposedly fixed)
-+ Improve load time for photography page.
-+ Improve contact page
++ Improve load time for photography page by adding fragment caching
++ Implement a system to break photo portfolio over multiple pages
 + Implement a database
-+ Fix & improve global styling
-+ Finalize page contents!
++ Continue improvements on aesthetics and page content. Prioritize contact page improvements.
 + Implement TDD with foreman, guard, and spork
-+ Improve footer design. Maybe work towards a sticky footer with a navbar.
 
 Implemented Features
 
 + Flickr API calls on my Photography pages
 + Markdown rendering with redcarpet on Notes page and implemented bootstraps's tab.js
 + Markdown code block syntax highlighting implemented with rouge
++ Added Heroku newrelic addon for application monitoring 
