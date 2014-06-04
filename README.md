@@ -22,7 +22,7 @@ To do's
 
 + Improve load time for photography page by adding fragment caching
 + Implement a system to break photo portfolio over multiple pages
-+ Implement a database
++ Implement a database and blog as a conceptional exercises
 + Continue improvements on aesthetics and page content. Prioritize contact and photography page improvements.
 + Implement and learn TDD with foreman, guard, and spork
 
