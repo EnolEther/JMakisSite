@@ -2,10 +2,11 @@ Mywebsite::Application.routes.draw do
   # get "markdown_pages/myNotes"
   root 'static_pages#index'
 
-  match '/about', to: "static_pages#about", via: 'get'
+  match '/about',       to: "static_pages#about", via: 'get'
   match '/photography', to: "photography_pages#photography", via: 'get'
-  match '/contact', to: "static_pages#contact", via: 'get'
-  match '/notes', to: "markdown_pages#myNotes", via: 'get'
+  match '/contact',     to: "static_pages#contact", via: 'get'
+  match '/notes',       to: "markdown_pages#myNotes", via: 'get'
+  get   '/resume',      to: => redirect('Resume_JM_rails_11c.pdf')
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -10,10 +10,8 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-// = require jquery
-// = require jquery_ujs
 // = require bootstrap
-// = require jquery-1.10.2.min.js
-// = require lightbox-2.6.min.js
+// = require jquery-1.11.0.min.js
+// = require lightbox.min.js
 // = require modernizr.custom.js
 // = require_tree .
