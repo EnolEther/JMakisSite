@@ -76,7 +76,6 @@ To merge branches back into the master branch (after branch is committed)
 
 ~~~ shell
 $ git checkout master
-#
 $ git merge branchName
 ~~~
 
@@ -90,7 +89,7 @@ In the case of an irrecoverable branch the -D flag will allow the branch to be d
 
 ~~~ shell
 $ git checkout -b newBranch
-# newBranch was irrecoverably messed up
+  # newBranch was irrecoverably messed up
 $ git add .
 $ git commit -a -m "Major screw up, branch lost"
 $ git checkout master
