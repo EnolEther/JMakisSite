@@ -61,8 +61,6 @@ GEM
     execjs (2.2.0)
     ffi (1.9.3)
     flickraw (0.9.8)
-    flickraw-cached (20120701)
-      flickraw (>= 0.9)
     formatador (0.2.5)
     guard (2.6.1)
       formatador (>= 0.2.4)
@@ -217,7 +215,7 @@ DEPENDENCIES
   childprocess (~> 0.3)
   coffee-rails (~> 4.0)
   dotenv-rails (~> 0.10)
-  flickraw-cached
+  flickraw (~> 0.9)
   guard-rspec (~> 4.0)
   guard-spork (~> 1.5)
   jbuilder (~> 2.0)

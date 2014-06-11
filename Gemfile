@@ -11,8 +11,8 @@ gem 'coffee-rails',		            '~>4.0'		# Use CoffeeScript for .js.coffee asse
 gem 'jquery-rails',		   	        '~>3.1'		# Use jquery as the JavaScript library
 gem 'turbolinks',		   		        '~>2.2'		# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'jbuilder',				   	        '~>2.0'		# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-# gem 'flickraw',				   	  	    '~>0.9'		# Flickr API Gem
-gem 'flickraw-cached'                     # Flickraw Cache exten Gem
+gem 'flickraw',				   	  	    '~>0.9'		# Flickr API Gem
+# gem 'flickraw-cached'                     # Flickraw Cache exten Gem
 gem 'kramdown',                   '~>1.3'   # Markdown and highlighting gem
 # gem 'redcarpet',                  '~>3.1'   # Markdown engine
 # gem 'rouge',                      '~>1.3'   # Syntax Highlighting
