@@ -22,15 +22,15 @@ To do's
 
 + Improve load time for photography page by adding fragment caching
 + Implement a system to break photo portfolio over multiple pages
-+ Implement a database and blog as a conceptional exercises
 + Continue improvements on aesthetics and page content. Prioritize contact and photography page improvements.
++ Implement a database and blog as a conceptional exercises
 + Implement and learn TDD with foreman, guard, and spork
 
 Implemented Features
 
 + Twitter Bootstrap for frontend styling
 + Flickr API calls on my Photography pages
-+ Markdown rendering with redcarpet on Notes page and implemented bootstraps's tab.js
-+ Markdown code block syntax highlighting implemented with rouge
++ Markdown rendering with kramdown on Notes page and implemented bootstraps's tab.js
++ Markdown code block syntax highlighting implemented with kramdown and coderay.
 + Added Heroku newrelic addon for application monitoring
 + [Added domain name to app](http://www.johnjmakis.com)
