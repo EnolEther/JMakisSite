@@ -8,6 +8,7 @@ class PhotographyPagesController < ApplicationController
 
   def photography
     @myPhotos = flickr.photos.search(:user_id => '56381296@N00')
+    # @myPhotos = flickr.photos.search(:user_id => '56381296@N00', :per_page => 2) # Speed up local debugging
   end
 
   # Users should hit this method to get the link which sends them to flickr
