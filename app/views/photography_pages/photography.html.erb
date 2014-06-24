@@ -1,9 +1,7 @@
 <% provide(:title, 'Photography') %>
-<h1>Photographs</h1>
 
-</div>
 <% cache(:expires_in => 3.month) do %>
-  <div class="row">
+  <div class="row vcenter">
       <% parsePhotoData(@myPhotos).each do |ele| %>
       <%= render partial: 'layouts/photos', :locals=>{:largeURL => ele[:largeURL], :thumbURL => ele[:thumbURL], :title => ele[:title]} %>
       <% end %>
