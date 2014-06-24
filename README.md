@@ -22,6 +22,7 @@ To do's
 
 + Implement a system to break photo portfolio over multiple pages
 + Continue improvements on aesthetics and page content. Prioritize contact and photography page improvements.
+  + Fix centering of photo thumbnails
 + Implement a database and blog as a conceptional exercises
 + Implement and learn TDD with foreman, guard, and spork
 
