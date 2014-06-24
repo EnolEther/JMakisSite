@@ -20,7 +20,6 @@ I am utilizing the following references for my rails education:
 
 To do's
 
-+ Improve load time for photography page by adding fragment caching
 + Implement a system to break photo portfolio over multiple pages
 + Continue improvements on aesthetics and page content. Prioritize contact and photography page improvements.
 + Implement a database and blog as a conceptional exercises
@@ -30,7 +29,9 @@ Implemented Features
 
 + Twitter Bootstrap for frontend styling
 + Flickr API calls on my Photography pages
++ Simple fragment caching on the Photography pages
 + Markdown rendering with kramdown on Notes page and implemented bootstraps's tab.js
 + Markdown code block syntax highlighting implemented with kramdown and coderay.
 + Added Heroku newrelic addon for application monitoring
++ Added staging environment
 + [Added domain name to app](http://www.johnjmakis.com)
