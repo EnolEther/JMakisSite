@@ -2,7 +2,7 @@
 <h1>Photographs</h1>
 
 </div>
-<% cache do %>
+<% cache(:expires_in => 3.month) do %>
   <div class="row">
       <% parsePhotoData(@myPhotos).each do |ele| %>
       <%= render partial: 'layouts/photos', :locals=>{:largeURL => ele[:largeURL], :thumbURL => ele[:thumbURL], :title => ele[:title]} %>
