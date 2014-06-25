@@ -11,7 +11,9 @@ _Disclaimer: YMMV, I am only an amateur programmer and I am hardly confident thi
 For a more general approach to the installation using RVM instead of rbenv [I think this guide that is well written](http://railsapps.github.io/installrubyonrails-mac.html). This is probably the best failure resistant guide to setting up your Mavericks environment.
 
 <a name="envsetup"></a>
-# Setting it up
+
+### Setting it up
+
 Below are my notes for my hacked together setup using rbenv.
 
 Install [homebrew](http://brew.sh/) for managing packages for up to date development.
@@ -78,18 +80,18 @@ $> rails new myapp --database=postgresql
 Now, I have tweaked my setup in so many tiny ways this is as far I can write without redoing everything over and documenting my every step. Here are some helpful links to get you going.
 
 + [*Ruby on Rails Tutorial*](http://railstutorial.org/) by [Michael Hartl](http://michaelhartl.com/).
-+ [Markdown Syntax](http://daringfireball.net/projects/markdown/syntax#list)
++ [Markdown Syntax](http://daringfireball.net/projects/markdown/syntax)
 + [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 + [Git Documentation](http://gitref.org/)
 + [Heroku Documentation](https://devcenter.heroku.com/)
 + [Heroku CLI Documentation](https://devcenter.heroku.com/articles/heroku-command)
-+ [Bundler Documentation](http://bundler.io/v1.5/rationale.html)
++ [Bundler Documentation](http://bundler.io/)
 + [Setting up a Github Repo](https://help.github.com/articles/create-a-repo)
 
 
 <a name="sublime"></a>
 
-# Sublime Text 3
+### Sublime Text 3
 
 Once Sublime Text is installed I use the [sublime text package manager](https://sublime.wbond.net/) to install and manage the different packages I use for my work environment. To install this manager follow the instructions given on [this page](https://sublime.wbond.net/installation). As it is out of the scope of this notes page I won't be including specific installation instructions for each package. The instructions provided by the package documentation should be used.
 
@@ -111,7 +113,7 @@ I've installed:
 
 <a name="iterm"></a>
 
-# iTerm2
+### iTerm2
 
 For using terminal as much as I do, I enjoy having the software in full screen with at least two columns but more often a grid layout. This will make more sense once you begin running a development webserver in one terminal instance and require another. It greatly speeds up my productivity having everything in one screen. 
 
