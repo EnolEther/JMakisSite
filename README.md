@@ -34,10 +34,5 @@ Implemented Features
 + Markdown rendering with kramdown on Notes page and implemented bootstraps's tab.js
 + Markdown code block syntax highlighting implemented with kramdown and coderay.
 + Added Heroku newrelic addon for application monitoring
-<<<<<<< HEAD
-+ Added staging environment to heroku
-+ [Added domain name to app](http://www.johnjmakis.com)
-=======
 + Added staging pipeline to heroku for debugging in production
 + Added a [domain name](http://www.johnjmakis.com) to my app hosted on heroku
->>>>>>> photocache
