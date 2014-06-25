@@ -4,26 +4,26 @@ This is my first application utilizing rails and ruby. I am teaching myself as I
 
 I am utilizing the following references for my rails education:
 
-+ Google-fu
 + [*Ruby on Rails Tutorial*](http://railstutorial.org/) by [Michael Hartl](http://michaelhartl.com/).
 + [*Rails 4 in Action (EAE)*](http://www.manning.com/bigg2/) by Ryan Bigg, Yehuda Katz, and Steve Klabnik
-+ [Markdown Syntax](http://daringfireball.net/projects/markdown/syntax#list)
++ [Markdown Syntax](http://daringfireball.net/projects/markdown/syntax)
 + [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 + [SASS Documentation](http://sass-lang.com/)
-+ [Bootstrap Documentation](http://getbootstrap.com/components/)
++ [Bootstrap Documentation](http://getbootstrap.com/)
 + [Git Documentation](http://gitref.org/)
 + [Heroku Documentation](https://devcenter.heroku.com/)
 + [Heroku CLI Documentation](https://devcenter.heroku.com/articles/heroku-command)
-+ [Bundler Documentation](http://bundler.io/v1.5/rationale.html)
++ [Bundler Documentation](http://bundler.io)
 + [Setting up a Github Repo](https://help.github.com/articles/create-a-repo)
 + [PostgreSQL app documentation](http://postgresapp.com/documentation/)
++ Google-fu
 
 To do's
 
 + Implement a system to break photo portfolio over multiple pages
-+ Continue improvements on aesthetics and page content. Prioritize contact and photography page improvements.
-  + Fix centering of photo thumbnails
-+ Implement a database and blog as a conceptional exercises
++ Continue improvements on aesthetics and page content
+  + Fix centering of photo thumbnails in responsive layouts
++ Implement a database and blog as conceptional exercises
 + Implement and learn TDD with foreman, guard, and spork
 
 Implemented Features
@@ -34,5 +34,10 @@ Implemented Features
 + Markdown rendering with kramdown on Notes page and implemented bootstraps's tab.js
 + Markdown code block syntax highlighting implemented with kramdown and coderay.
 + Added Heroku newrelic addon for application monitoring
+<<<<<<< HEAD
 + Added staging environment to heroku
 + [Added domain name to app](http://www.johnjmakis.com)
+=======
++ Added staging pipeline to heroku for debugging in production
++ Added a [domain name](http://www.johnjmakis.com) to my app hosted on heroku
+>>>>>>> photocache

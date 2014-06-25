@@ -2,12 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.center-block {
-  width: auto;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.vcenter {
+  display:table !important;
+  // width: auto;
+  // height: auto;
+  // display: block;
+  // margin-left: auto;
+  // margin-right: auto;
 }
 
 .thumbnail {
