@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 ruby '2.1.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
-gem 'rails',		  					      '~>4.0'		# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails',		  					      '~>4.1'		# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'pg',			  	        			  '~>0.17'  # Use postgresql as the database for Active Record
-gem 'bootstrap-sass',             '~>3.1'   # Bootstrap for dynamic CSS
+gem 'bootstrap-sass',             '~>3.2'   # Bootstrap for dynamic CSS
 gem 'sass-rails',                 '~>4.0'		# Use SCSS for stylesheets
 gem 'uglifier',				     	      '~>2.5'		# Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails',		            '~>4.0'		# Use CoffeeScript for .js.coffee assets and views
@@ -15,7 +15,7 @@ gem 'flickraw',				   	  	    '~>0.9'		# Flickr API Gem
 gem 'kramdown',                   '~>1.3'   # Markdown and highlighting gem
 gem 'unicorn',                    '~>4.8'   # Unicorn App Server
 gem 'actionview-encoded_mail_to', '~>1.0'   # allows encoding of mail_to
-gem 'newrelic_rpm',               '~>3.8'   # Heroku performance monitoring
+gem 'newrelic_rpm',               '~>3.9'   # Heroku performance monitoring
 
 group :development, :test do
   gem 'rspec-rails',            '~>2.14' 	# TDD packages
