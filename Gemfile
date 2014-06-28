@@ -18,7 +18,7 @@ gem 'actionview-encoded_mail_to', '~>1.0'   # allows encoding of mail_to
 gem 'newrelic_rpm',               '~>3.9'   # Heroku performance monitoring
 
 group :development, :test do
-  gem 'rspec-rails',            '~>2.14' 	# TDD packages
+  gem 'rspec-rails',            '~>3.0' 	# TDD packages
   gem 'guard-rspec',				    '~>4.0'		# ^
   gem 'guard-spork',				    '~>1.5'		# ^
   gem 'childprocess',				    '~>0.3'		# ^
