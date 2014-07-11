@@ -27,7 +27,7 @@ end
 
 group :test do
   gem 'selenium-webdriver',	    '~>2.40'  # 
-  gem 'capybara',			          '~>2.1'   #
+  gem 'capybara',			          '~>2.4'   #
 end
 
 group :doc do
