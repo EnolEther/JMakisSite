@@ -10,7 +10,7 @@ gem 'uglifier',				     	      '~>2.5'		# Use Uglifier as compressor for JavaScr
 gem 'coffee-rails',		            '~>4.0'		# Use CoffeeScript for .js.coffee assets and views
 gem 'jquery-rails',		   	        '~>3.1'		# Use jquery as the JavaScript library
 gem 'turbolinks',		   		        '~>2.2'		# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'jbuilder',				   	        '~>2.0'		# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder',				   	        '~>2.1'		# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'flickraw',				   	  	    '~>0.9'		# Flickr API Gem
 gem 'kramdown',                   '~>1.3'   # Markdown and highlighting gem
 gem 'unicorn',                    '~>4.8'   # Unicorn App Server
