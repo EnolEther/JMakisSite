@@ -1,4 +1,4 @@
-# Quick reference for development work flow
+# Quick reference for development workflow
 
 ~~~ shell
 # Git Notes
