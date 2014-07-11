@@ -4,6 +4,7 @@
 <div id="myNotes" class="padNotes">
   <ul class="nav nav-tabs">
     <li class="active"><%= link_to "My Notes", "#readmeNotes", "data-toggle" => "tab"%></li>
+    <li><%= link_to "Quick Reference", "#quickRef", "data-toggle" => "tab" %></li>
     <li><%= link_to "Git Notes", "#gitNotes", "data-toggle" => "tab" %></li>
     <li><%= link_to "Heroku Notes", "#herokuNotes", "data-toggle" => "tab" %></li>
     <li><%= link_to "RoR Notes", "#rorNotes", "data-toggle" => "tab" %></li>
@@ -11,6 +12,9 @@
   <div id="myNotesContent" class="tab-content">
     <div class="tab-pane fade in active" id="readmeNotes">
       <%= markdown markdown_readmeFile %>
+    </div>
+    <div class="tab-pane fade" id="quickRef">
+      <%= markdown markdown_read "quickRef.md" %>
     </div>
     <div class="tab-pane fade" id="gitNotes">
       <%= markdown markdown_read "gitNotes.md" %>
