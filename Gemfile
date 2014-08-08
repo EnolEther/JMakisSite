@@ -12,7 +12,7 @@ gem 'jquery-rails',		   	        '~>3.1'		# Use jquery as the JavaScript library
 gem 'turbolinks',		   		        '~>2.2'		# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'jbuilder',				   	        '~>2.1'		# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'flickraw',				   	  	    '~>0.9'		# Flickr API Gem
-gem 'kramdown',                   '~>1.3'   # Markdown and highlighting gem
+gem 'kramdown',                   '~>1.4'   # Markdown and highlighting gem
 gem 'unicorn',                    '~>4.8'   # Unicorn App Server
 gem 'actionview-encoded_mail_to', '~>1.0'   # allows encoding of mail_to
 gem 'newrelic_rpm',               '~>3.9'   # Heroku performance monitoring

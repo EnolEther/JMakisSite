@@ -2,7 +2,7 @@
 
 To deploy to heroku
 
-~~~ shell
+~~~ bash
 $:>  heroku login
 $:>  heroku create           # To create the new application
 $:>  git push heroku master
@@ -13,13 +13,13 @@ Other useful heroku Commands
 
 To rename the app:
 
-~~~ shell
+~~~ bash
 $:>  heroku rename newName
 ~~~
 
 To setup env. variables, secrets, and other backend data.
 
-~~~ shell
+~~~ bash
 $:>  heroku config
 $:>  heroku config:get
 $:>  heroku config:set
@@ -28,7 +28,7 @@ $:>  heroku config:unset
 
 More "Cheat Sheet" commands
 
-~~~ shell
+~~~ bash
 # Staging commands
 $:>  heroku pipeline:diff
 $:>  heroku pipeline:promote

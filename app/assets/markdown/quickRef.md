@@ -1,6 +1,6 @@
 # Quick reference for development workflow
 
-~~~ shell
+~~~ bash
 # Git Notes
 
 $:> git status
